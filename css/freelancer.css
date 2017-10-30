@@ -454,7 +454,7 @@ footer {
   font-size: 16px;
   margin-bottom: 8px;
   transition: all 0.3s ease-in-out;
-  min-width: 7.25rem;
+  /* min-width: 7.25rem; */
   color: white;
   border: solid 2px white;
   border-radius: 1.25rem;
@@ -547,6 +547,10 @@ dl {
 .navbar{
     padding: .25rem 1rem
 }
+.navbar-brand{
+    margin-right: 0;
+}
+
 .brand-name{
     display: block;
     font-size: 1.5rem;
