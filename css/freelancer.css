@@ -117,15 +117,13 @@ section.success {
 
 .brand-name{
     display: block;
-    font-size: 1.5rem;
-    line-height: initial;
-}
+    font-size: 1.75rem;
+    line-height: initial; }
 .brand-title{
     display: block;
     font-size: 0.75rem;
     font-weight: normal;
-    color: #1798BC;
-}
+    color: #1798BC; }
 
 #mainNav {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -144,7 +142,7 @@ section.success {
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
     #mainNav .navbar-brand > .brand-title{
-      font-size: 0.5rem;
+      font-size: 0.55rem;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
@@ -178,14 +176,14 @@ section.success {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s; }
     #mainNav .navbar-brand {
-      font-size: 2em;
+      font-size: 2rem;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
     #mainNav .navbar-brand > .brand-name{
       font-size: 1.75rem; }
     #mainNav .navbar-brand > .brand-title{
-      font-size: 0.7rem; }
+      font-size: 0.75rem; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
@@ -204,7 +202,7 @@ section.success {
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
     #mainNav.navbar-shrink .navbar-brand > .brand-title{
-      font-size: 0.5rem;
+      font-size: 0.55rem;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
