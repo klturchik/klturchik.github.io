@@ -139,12 +139,12 @@ section.success {
     font-size: 1.2rem;
     color: white; }
     #mainNav .navbar-brand > .brand-name{
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
     #mainNav .navbar-brand > .brand-title{
-      font-size: 0.6rem;
+      font-size: 0.5rem;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
@@ -185,7 +185,7 @@ section.success {
     #mainNav .navbar-brand > .brand-name{
       font-size: 1.75rem; }
     #mainNav .navbar-brand > .brand-title{
-      font-size: 0.75rem; }
+      font-size: 0.7rem; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
@@ -199,12 +199,12 @@ section.success {
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
     #mainNav.navbar-shrink .navbar-brand > .brand-name{
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
     #mainNav.navbar-shrink .navbar-brand > .brand-title{
-      font-size: 0.6rem;
+      font-size: 0.5rem;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
