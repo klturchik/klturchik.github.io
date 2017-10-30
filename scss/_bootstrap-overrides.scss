@@ -1,0 +1,71 @@
+// Bootstrap overrides for this template
+.btn-outline {
+  font-size: 20px;
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  border: solid 2px white;
+  background: transparent;
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    color: $theme-success;
+    border: solid 2px white;
+    background: white;
+  }
+}
+
+.btn-primary {
+  font-weight: 700;
+  @include button-variant(white, $theme-primary, $theme-primary);
+}
+
+.btn-success {
+  font-weight: 700;
+  @include button-variant(white, $theme-success, $theme-success);
+}
+
+.btn-social {
+  font-size: 20px;
+  line-height: 45px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+.btn.active,
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+
+.carousel-indicators {
+  bottom: 20px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
