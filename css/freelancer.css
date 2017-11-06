@@ -117,11 +117,11 @@ section.success {
 
 .brand-name{
     display: block;
-    font-size: 1.75rem;
+    font-size: 28px;
     line-height: initial; }
 .brand-title{
     display: block;
-    font-size: 0.75rem;
+    font-size: 12px;
     font-weight: normal;
     color: #1798BC; }
 
@@ -181,9 +181,9 @@ section.success {
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
     #mainNav .navbar-brand > .brand-name{
-      font-size: 1.75rem; }
+      font-size: 28px; }
     #mainNav .navbar-brand > .brand-title{
-      font-size: 0.75rem; }
+      font-size: 12px; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
