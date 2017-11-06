@@ -137,12 +137,12 @@ section.success {
     font-size: 1.2rem;
     color: white; }
     #mainNav .navbar-brand > .brand-name{
-      font-size: 1.25rem;
+      font-size: 20px;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
     #mainNav .navbar-brand > .brand-title{
-      font-size: 0.535rem;
+      font-size: 8.6px;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
@@ -202,7 +202,7 @@ section.success {
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
     #mainNav.navbar-shrink .navbar-brand > .brand-title{
-      font-size: 0.535rem;
+      font-size: 8.6px;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
