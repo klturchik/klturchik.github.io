@@ -277,7 +277,7 @@ header.masthead {
 #portfolio * {
   z-index: 2; }
 
-@media (min-width: 767px) {
+@media (min-width: 576px) {
   #portfolio .portfolio-item {
     margin: 0 0 2px; } }
 
