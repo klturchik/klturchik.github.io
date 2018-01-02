@@ -584,8 +584,9 @@ dl {
 .img-profile {
     width: 50%;
     float: left;
+    margin-top: 6px;
     margin-right: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 @media (min-width: 392px) {
 .img-profile {
