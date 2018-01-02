@@ -580,3 +580,27 @@ dl {
   text-align: left;
   width: fit-content;
 }
+
+.img-profile {
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+@media (min-width: 392px) {
+.img-profile {
+    margin-bottom: 2px;
+}
+@media (min-width: 576px) {
+.img-profile {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+.img-profile {
+    width: 38%;
+}
+@media (min-width: 992px) {
+.img-profile {
+    width: 35%;
+}
