@@ -20,6 +20,9 @@ a:focus,
 a:hover {
   color: #1798BC;
   outline: none; }
+a.inline-white{
+    color: white;
+}
 
 h1,
 h2,
