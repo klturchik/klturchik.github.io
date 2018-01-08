@@ -628,6 +628,7 @@ footer {
 .center-list {
   list-style-position: inside;
   margin: 0 auto 1.25rem;
+  padding-left: 20px;
   position: relative;
   text-align: left;
   width: fit-content;
