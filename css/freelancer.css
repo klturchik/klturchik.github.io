@@ -309,6 +309,10 @@ header.masthead {
     .portfolio-modal .modal-dialog .modal-content {
         margin: 35px;
     }}
+    @media (min-width: 992px) {
+    .portfolio-modal .modal-dialog .modal-content {
+        margin: 45px;
+    }}
     .portfolio-modal .modal-dialog .modal-content h2 {
       font-size: 3em; }
 
@@ -562,43 +566,6 @@ footer {
     padding-left: 15px;
 }
 
-.header-content {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.carousel {
-  position: relative;
-  margin-bottom: 30px;
-}
-.carousel-profile {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 20px;
-  min-width: 250px;
-  max-width: 600px;
-  background: none repeat scroll 0 0 white;
-  padding: 3px;
-  position: relative;
-}
-.carousel-indicators {
-  bottom: 0px;
-}
-
-.tool-details{
-  font-style: italic;
-  margin-bottom: 0.25rem;
-}
-
-.center-list {
-  list-style-position: inside;
-  margin: 0 auto 1.25rem;
-  position: relative;
-  text-align: left;
-  width: fit-content;
-}
-
 .img-profile {
     width: 50%;
     float: left;
@@ -623,3 +590,45 @@ footer {
 .img-profile {
     width: 35%;
 }}
+
+
+.header-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel {
+  position: relative;
+  margin-bottom: 30px;
+}
+.carousel-profile {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  min-width: 250px;
+  max-width: 600px;
+  background: none repeat scroll 0 0 white;
+  padding: 3px;
+  position: relative;
+}
+.carousel-indicators {
+  bottom: 0px;
+}
+
+.modal-intro{
+  margin-bottom: 1.75rem
+}
+
+.tool-details{
+  font-style: italic;
+  margin-bottom: 0.25rem;
+}
+
+.center-list {
+  list-style-position: inside;
+  margin: 0 auto 1.25rem;
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
