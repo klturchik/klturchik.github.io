@@ -46,6 +46,29 @@
     });
   });
     
+  //Filter data
+  //https://bootsnipp.com/snippets/r1Z7d
+  $(document).ready(function(){
+
+    $(".filter-btn").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show();
+        }
+        else
+        {
+            //$('.filter[filter-item="'+value+'"]').removeClass('hidden');
+            //$(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide();
+            $('.filter').filter('.'+value).show();
+            
+        }
+    });
+  });
+    
   // Initialize and Configure Scroll Reveal Animation
   window.sr = ScrollReveal();
   sr.reveal('.sr-icon', {

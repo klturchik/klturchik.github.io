@@ -67,9 +67,33 @@
       <div class="container">
         <h2 class="text-center">Portfolio</h2>
         <hr class="divider-primary">
+          
+        <ul class="list-inline content-centered ">
+            <li class="list-inline-item sr-button">
+                <span class="btn btn-success filter-btn" data-filter="all"> All
+                </span>
+            </li>
+            <!--<li class="list-inline-item sr-button">
+                <span class="btn btn-success filter-btn" data-filter="indie"> Indie
+                </span>
+            </li>-->
+            <li class="list-inline-item sr-button">
+                <span class="btn btn-success filter-btn" data-filter="vr"> VR/AR
+                </span>
+            </li>
+            <li class="list-inline-item sr-button">
+                <span class="btn btn-success filter-btn" data-filter="mobile"> Mobile
+                </span>
+            </li>
+            <li class="list-inline-item sr-button">
+                <span class="btn btn-success filter-btn" data-filter="hackathon"> Hackathon
+                </span>
+            </li>
+        </ul>
+          
         <div class="row">
-          <div class="col-sm-4 portfolio-item sr-icon">
-            <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+          <div class="col-sm-3 portfolio-item sr-icon  filter vr">
+            <a class="portfolio-link" href="#portfolioModalRedDwarf" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
                   <i class="fa fa-search-plus fa-3x"></i>
@@ -78,28 +102,8 @@
               <img src="img/portfolio/RedDwarf/RedDwarf.jpg" class="img-fluid" alt="Red Dwarf">
             </a>
           </div>
-          <div class="col-sm-4 portfolio-item sr-icon">
-            <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="img/portfolio/BattleOfTheBards/BattleOfTheBards.jpg" class="img-fluid" alt="Battle Of The Bards">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item sr-icon">
-            <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="img/portfolio/ElementalFury/ElementalFury.jpg" class="img-fluid" alt="InVRasion">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item sr-icon">
-            <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
+          <div class="col-sm-3 portfolio-item sr-icon filter vr">
+            <a class="portfolio-link" href="#portfolioModalInVRasion" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
                   <i class="fa fa-search-plus fa-3x"></i>
@@ -108,8 +112,48 @@
               <img src="img/portfolio/InVRasion/InVRasion.jpg" class="img-fluid" alt="InVRasion">
             </a>
           </div>
-          <div class="col-sm-4 portfolio-item sr-icon">
-            <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+          <div class="col-sm-3 portfolio-item sr-icon  filter hackathon">
+            <a class="portfolio-link" href="#portfolioModalBattleOfTheBards" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/BattleOfTheBards/BattleOfTheBards.jpg" class="img-fluid" alt="Battle Of The Bards">
+            </a>
+          </div>
+          <div class="col-sm-3 portfolio-item sr-icon  filter vr hackathon">
+            <a class="portfolio-link" href="#portfolioModalElementalFury" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/ElementalFury/ElementalFury.jpg" class="img-fluid" alt="Elemental Fury">
+            </a>
+          </div>
+          <div class="col-sm-3 portfolio-item sr-icon filter vr mobile">
+            <a class="portfolio-link" href="#portfolioModalAugmentedRealms" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/AugmentedRealms/AugmentedRealms.jpg" class="img-fluid" alt="Augmented Realms">
+            </a>
+          </div>
+          <div class="col-sm-3 portfolio-item sr-icon filter hackathon">
+            <a class="portfolio-link" href="#portfolioModalTransfliction" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/Transfliction/Transfliction.jpg" class="img-fluid" alt="Transfliction">
+            </a>
+          </div>
+          <div class="col-sm-3 portfolio-item sr-icon filter hackathon">
+            <a class="portfolio-link" href="#portfolioModalSeismicShift" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
                   <i class="fa fa-search-plus fa-3x"></i>
@@ -118,8 +162,8 @@
               <img src="img/portfolio/SeismicShift/SeismicShift.jpg" class="img-fluid" alt="Seismic Shift">
             </a>
           </div>
-          <div class="col-sm-4 portfolio-item sr-icon">
-            <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+          <div class="col-sm-3 portfolio-item sr-icon filter mod">
+            <a class="portfolio-link" href="#portfolioModalFTL" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
                   <i class="fa fa-search-plus fa-3x"></i>
@@ -137,7 +181,7 @@
       <div class="container">
         <h2 class="text-center">About</h2>
         <hr class="divider-light">
-        <ul class="list-inline social-links ">
+        <ul class="list-inline content-centered ">
             <li class="list-inline-item sr-button">
                 <a target="_blank" href="files/KyleTurchik_Resume_SoftwareEngineer.pdf" class="btn btn-social"><i class="fa fa-fw fa-file-text" style="font-size: 14px"></i> Resume
                 </a>
@@ -247,7 +291,7 @@
     </div>
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModalRedDwarf" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -262,7 +306,7 @@
                   <h2>Red Dwarf</h2>
                   <h4></h4>
                   <hr class="divider-primary">
-                  <div id="carousel1" class="carousel slide" role="listbox">
+                  <div id="carouselRedDwarf" class="carousel slide" role="listbox">
                       <video id="video1" class="embed-responsive" controls>
                         <source src="videos/RedDwarf.mp4" type="video/mp4">
                             Your browser does not support the video tag.
@@ -324,7 +368,121 @@
         </div>
       </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    
+        <div class="portfolio-modal modal fade" id="portfolioModalInVRasion" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 mx-auto">
+                <div class="modal-body">
+                  <h2>InVRasion</h2>
+                  <h4>Senior Project</h4>
+                  <hr class="divider-primary">
+
+                    <!-- Carousel -->
+                    <div id="carouselInVRasion" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselInVRasion" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselInVRasion" data-slide-to="1"></li>
+                        <li data-target="#carouselInVRasion" data-slide-to="2"></li>
+                        <li data-target="#carouselInVRasion" data-slide-to="3"></li>
+                        <li data-target="#carouselInVRasion" data-slide-to="4"></li>
+                        <li data-target="#carouselInVRasion" data-slide-to="5"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/0.png" alt="InVRasion">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/1.png" alt="Main Menu">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/2.png" alt="VR shooting">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/3.png" alt="Splitscreen">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/4.png" alt="VR Grab">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/5.png" alt="Non-VR grabbed">
+                        </div>
+                      </div>
+
+                      <!-- Left and right controls -->
+                      <a class="carousel-control-prev" href="#carouselInVRasion" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselInVRasion" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                    <!-- /Carousel -->
+                    
+                  <h6>About the project</h6>
+                  <div class="tool-details"><i class="fa fa-wrench"></i> Tools: Unity, C#, GIT, Visual Studio, SteamVR, VRTK, Blender, HTC Vive</div>
+                  <p>InVRasion is an asynchronous multiplayer game that brings together keyboard/mouse and Virtual Reality gamers in an epic boss battle. An HTC Vive player plays as a giant alien mech, while up to 4 split-screen players play as different classes of super soldiers who must coordinate their attacks to defeat the alien threat before it destroys an objective. Inspirations for the game include Pacific Rim, Attack on Titan, and many popular VR games.
+                  <h6>Contributions</h6>
+                    I worked with another engineer, a designer, and a 3D artist to create inVRasion. <br>My contributions include:
+                    <ul class="center-list">
+                        <li>Projectile spawning via object pools</li>
+                        <li>Wall running and grapple mechanics</li>
+                        <li>Various weapon mechanics</li>
+                        <li>World space UI displays</li>
+                        <li>Keyboard/Mouse player controls</li>
+                        <li>Game Design (UI, abilities &amp; mechanics, goals, interactions)</li>
+                        <li>Project Management (Agile using Trello and Github)</li>
+                    </ul>
+                  <h6>What I Learned</h6>
+                    <p>InVRasion was originally developed as my Senior Project for my Computer Science degree at Cal Poly Pomona. The project was very open ended, allowing me to experience the process of concepting a game, prototyping it, and then turning it into a fully featured project. This was also the largest project I had worked on at the time, requiring me to think more carefully about the overall architecture of the game.
+                    <br>I organized a team of friends from my game development club to work with me and it was up to us to push the project as far as we could. This project had me delving deeper into game design than ever before as my team and I spent many days playtesting our game and several other VR games to make sure all of the abilities we implemented were fun and balanced. I also learned a lot about the software development life cycle as my friends and I were able to implement a version of Agile development using Trello to coordinate tasks remotely and Github to share code.
+                    </p>
+                    <ul class="list-inline item-details">    
+                    <a href="builds/InVRasion.zip">
+                        <h3 class="btn btn-success btn-lg">
+                        <i class="fa fa-download"></i>
+                        &nbsp;Download Demo
+                        </h3>
+                    </a>
+                    <p>
+                        <i class="fa fa-exclamation-triangle"></i> Note: Requires an HTC Vive to play.
+                    </p>
+                    <li>
+                      <i class="fa fa-calendar"></i> Date:
+                      <strong>
+                        <span>September 2016 - March 2017</span>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-outline-dark btn-modal-close" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="portfolio-modal modal fade" id="portfolioModalBattleOfTheBards" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -343,13 +501,13 @@
                     <h4><i class="fa fa-trophy"></i> 2nd Place Overall</h4>	
 
                     <!-- Carousel -->
-                    <div id="carousel2" class="carousel slide" data-ride="carousel">
+                    <div id="carouselBattleOfTheBards" class="carousel slide" data-ride="carousel">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
-                        <li data-target="#carousel2" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel2" data-slide-to="1"></li>
-                        <li data-target="#carousel2" data-slide-to="2"></li>
-                        <li data-target="#carousel2" data-slide-to="3"></li>
+                        <li data-target="#carouselBattleOfTheBards" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselBattleOfTheBards" data-slide-to="1"></li>
+                        <li data-target="#carouselBattleOfTheBards" data-slide-to="2"></li>
+                        <li data-target="#carouselBattleOfTheBards" data-slide-to="3"></li>
                       </ol>
 
                       <!-- Wrapper for slides -->
@@ -372,11 +530,11 @@
                       </div>
 
                       <!-- Left and right controls -->
-                      <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                      <a class="carousel-control-prev" href="#carouselBattleOfTheBards" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                      <a class="carousel-control-next" href="#carouselBattleOfTheBards" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
@@ -441,7 +599,8 @@
         </div>
       </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div class="portfolio-modal modal fade" id="portfolioModalElementalFury" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -457,7 +616,7 @@
                   <h4>BeachHacks - 2017</h4>
                   <hr class="divider-primary">
                   <h4><i class="fa fa-trophy"></i> 3rd Place Overall</h4>	
-                  <div id="carousel1" class="carousel slide" role="listbox">
+                  <div id="carouselElementalFury" class="carousel slide" role="listbox">
                       <video id="video2" class="embed-responsive" controls>
                         <source src="videos/ElementalFury.mp4" type="video/mp4">
                             Your browser does not support the video tag.
@@ -475,7 +634,7 @@
                     <ul class="center-list">
                         <li>Photon Unity Networking between multiple HTC Vives</li>
                         <li>Player controls for HTC Vive (using VRTK)</li>
-                        <li>Earth element mechanics</li>
+                        <li>Earth and water element mechanics</li>
                         <li>Game Design (original concept, player abilities, interactions)</li>
                     </ul>
                   <h6>What I Learned</h6>
@@ -521,7 +680,8 @@
         </div>
       </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div class="portfolio-modal modal fade" id="portfolioModalAugmentedRealms" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -533,93 +693,79 @@
             <div class="row">
               <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
-                  <h2>InVRasion</h2>
-                  <h4>Senior Project</h4>
+                  <h2>Augmented Realms</h2>
                   <hr class="divider-primary">
 
                     <!-- Carousel -->
-                    <div id="carousel4" class="carousel slide" data-ride="carousel">
+                    <div id="carouselAugmentedRealms" class="carousel slide" data-ride="carousel">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
-                        <li data-target="#carousel4" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel4" data-slide-to="1"></li>
-                        <li data-target="#carousel4" data-slide-to="2"></li>
-                        <li data-target="#carousel4" data-slide-to="3"></li>
-                        <li data-target="#carousel4" data-slide-to="4"></li>
-                        <li data-target="#carousel4" data-slide-to="5"></li>
+                        <li data-target="#carouselAugmentedRealms" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselAugmentedRealms" data-slide-to="1"></li>
+                        <li data-target="#carouselAugmentedRealms" data-slide-to="2"></li>
                       </ol>
 
                       <!-- Wrapper for slides -->
                       <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/0.png" alt="InVRasion">
+                          <img class="d-block img-fluid" src="img/portfolio/AugmentedRealms/0.png" alt="Augmented Realms">
                         </div>
 
                         <div class="carousel-item">
-                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/1.png" alt="Main Menu">
+                          <img class="d-block img-fluid" src="img/portfolio/AugmentedRealms/1.png" alt="Screenshot 1">
                         </div>
 
                         <div class="carousel-item">
-                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/2.png" alt="VR shooting">
-                        </div>
-
-                        <div class="carousel-item">
-                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/3.png" alt="Splitscreen">
-                        </div>
-
-                        <div class="carousel-item">
-                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/4.png" alt="VR Grab">
-                        </div>
-
-                        <div class="carousel-item">
-                          <img class="d-block img-fluid" src="img/portfolio/InVRasion/5.png" alt="Non-VR grabbed">
+                          <img class="d-block img-fluid" src="img/portfolio/AugmentedRealms/2.png" alt="Screenshot 2">
                         </div>
                       </div>
 
                       <!-- Left and right controls -->
-                      <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+                      <a class="carousel-control-prev" href="#carouselAugmentedRealms" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+                      <a class="carousel-control-next" href="#carouselAugmentedRealms" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
                     </div>
                     <!-- /Carousel -->
-                    
-                  <h6>About the project</h6>
-                  <div class="tool-details"><i class="fa fa-wrench"></i> Tools: Unity, C#, GIT, Visual Studio, SteamVR, VRTK, Blender, HTC Vive</div>
-                  <p>InVRasion is an asynchronous multiplayer game that brings together keyboard/mouse and Virtual Reality gamers in an epic boss battle. An HTC Vive player plays as a giant alien mech, while up to 4 split-screen players play as different classes of super soldiers who must coordinate their attacks to defeat the alien threat before it destroys an objective. Inspirations for the game include Pacific Rim, Attack on Titan, and many popular VR games.
-                  <h6>Contributions</h6>
-                    I worked with another engineer, a designer, and a 3D artist to create inVRasion. <br>My contributions include:
+                  
+                    <p class="modal-intro">Augmented Realms is a project currently in development by my team from Cal Poly Pomona.<br> Learn more be visiting our <a href="http://globalgamejam.org/2017/games/seismic-shift">Patreon</a>.
+                    </p>
+                    <h6>About the project</h6>
+                    <div class="tool-details"><i class="fa fa-wrench"></i> Tools: Unity, C#, GIT, Visual Studio, Vuforia</div>
+                    <p>Augmented Realms is an augmented reality application designed specifically to enhance tabletop roleplaying games. The goal of Augmented Realms is to provide gamers with tools to allow easier world building for DMs and character management for players, all the while immersing the player by breathing life into the game world with custom augmented reality graphics.
+                    </p>
+                    <h6>Contributions</h6>
+                    I am working with a team of engineers, artists, musicians, and dungeon masters to create Augmented Realms. <br>My contributions so far include:
                     <ul class="center-list">
-                        <li>Projectile spawning via object pools</li>
-                        <li>Wall running and grapple mechanics</li>
-                        <li>Various weapon mechanics</li>
-                        <li>World space UI displays</li>
-                        <li>Keyboard/Mouse player controls</li>
-                        <li>Game Design (UI, abilities &amp; mechanics, goals, interactions)</li>
-                        <li>Project Management (Agile using Trello and Github)</li>
+                        <li>AR tracking with and without markers</li>
+                        <li>World design and generation tools</li>
+                        <li>UI design and controls</li>
                     </ul>
-                  <h6>What I Learned</h6>
-                    <p>InVRasion was originally developed as my Senior Project for my Computer Science degree at Cal Poly Pomona. The project was very open ended, allowing me to experience the process of concepting a game, prototyping it, and then turning it into a fully featured project. This was also the largest project I had worked on at the time, requiring me to think more carefully about the overall architecture of the game.
-                    <br>I organized a team of friends from my game development club to work with me and it was up to us to push the project as far as we could. This project had me delving deeper into game design than ever before as my team and I spent many days playtesting our game and several other VR games to make sure all of the abilities we implemented were fun and balanced. I also learned a lot about the software development life cycle as my friends and I were able to implement a version of Agile development using Trello to coordinate tasks remotely and Github to share code.
-                    </p>
+
                     <ul class="list-inline item-details">    
-                    <a href="builds/InVRasion.zip">
-                        <h3 class="btn btn-success btn-lg">
-                        <i class="fa fa-download"></i>
-                        &nbsp;Download Demo
-                        </h3>
-                    </a>
-                    <p>
-                        <i class="fa fa-exclamation-triangle"></i> Note: Requires an HTC Vive to play.
-                    </p>
+                    <li>
+                        <i class="fa fa-external-link"></i>
+                        Project Site:
+                        <strong><a href="https://www.patreon.com/augmentedrealms">Augmented Realms | Patreon</a>
+                        </strong>
+                    </li>
+                    <!--
+                    <li>                    
+                        <i class="fa fa-television"></i>
+                        Play in browser:
+                        <strong><a href="webplayer/BattleOfTheBards/BattleOfTheBards.html">Battle Of The Bards</a>
+                        </strong>
+                    </li>
+                    -->
+                    <br>
                     <li>
                       <i class="fa fa-calendar"></i> Date:
                       <strong>
-                        <span>September 2016 - March 2017</span>
+                        <span>January 2018 - Present</span>
                       </strong>
                     </li>
                   </ul>
@@ -633,7 +779,127 @@
         </div>
       </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div class="portfolio-modal modal fade" id="portfolioModalTransfliction" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 mx-auto">
+                <div class="modal-body">
+                  <h2>Transfliction</h2>
+                  <h4>Global Game Jam - 2018</h4>
+                  <hr class="divider-primary">
+
+                    <!-- Carousel -->
+                    <div id="carouselTransfliction" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselTransfliction" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselTransfliction" data-slide-to="1"></li>
+                        <li data-target="#carouselTransfliction" data-slide-to="2"></li>
+                        <li data-target="#carouselTransfliction" data-slide-to="3"></li>
+                        <li data-target="#carouselTransfliction" data-slide-to="4"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                          <img class="d-block img-fluid" src="img/portfolio/Transfliction/0.png" alt="Transfliction">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img class="d-block img-fluid" src="img/portfolio/Transfliction/1.png" alt="Screenshot 1">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img class="d-block img-fluid" src="img/portfolio/Transfliction/2.png" alt="Screenshot 2">
+                        </div>
+
+                        <div class="carousel-item">
+                          <img class="d-block img-fluid" src="img/portfolio/Transfliction/3.png" alt="Screenshot 3">
+                        </div>
+                          
+                        <div class="carousel-item">
+                          <img class="d-block img-fluid" src="img/portfolio/Transfliction/4.png" alt="Screenshot 3">
+                        </div>
+                      </div>
+
+                      <!-- Left and right controls -->
+                      <a class="carousel-control-prev" href="#carouselTransfliction" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselTransfliction" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                    <!-- /Carousel -->
+                  
+                    <p class="modal-intro">Transfliction was created in 36 hours during <a href="http://globalgamejam.org/2017/games/seismic-shift">Global Game Jam 2018</a> at UC Riverside where the theme of the year was 'Transmission'.
+                    </p>
+                    <h6>About the project</h6>
+                    <div class="tool-details"><i class="fa fa-wrench"></i> Tools: Unity, C#, GIT, Visual Studio</div>
+                    <p>Trnasfliction is a stealth/puzzle game where you play the villain. The player has infected themself with a deadly plague and must sneak past troublesome AI doctors in order to reach the center of the CDC and spread their disease to the masses. Enemies use a state machine based AI and field of view detection to search for the player, while the player can spread their disease to NPCs using a dynamic disease transmission system.
+                    </p>
+                    <h6>Contributions</h6>
+                    I worked with a team of 2 other engineers, 2 game designers, and 2 artists to create Transfliction. <br>My contributions include:
+                    <ul class="center-list">
+                        <li>FOV detection and visualization using mesh geometry</li>
+                        <li>Enemy AI state machine</li>
+                        <li>UI menu design and implementation</li>
+                        <li>Sound design and implementation</li>
+                        <li>General bug testing and QA</li>
+                        <li>Game Design (player/enemy mechanics, level design)</li>
+                    </ul>
+
+                    <ul class="list-inline item-details">    
+                    <a href="builds/Transfliction.zip">
+                        <h3 class="btn btn-success btn-lg">
+                        <i class="fa fa-download"></i>
+                        &nbsp;Download Demo
+                        </h3>
+                    </a>
+                    <li>
+                        <i class="fa fa-external-link"></i>
+                        Project Site:
+                        <strong><a href="https://globalgamejam.org/2018/games/transfliction">Transfliction | Global Game Jam 2018</a>
+                        </strong>
+                    </li>
+                    <!--
+                    <li>                    
+                        <i class="fa fa-television"></i>
+                        Play in browser:
+                        <strong><a href="webplayer/BattleOfTheBards/BattleOfTheBards.html">Battle Of The Bards</a>
+                        </strong>
+                    </li>
+                    -->
+                    <br>
+                    <li>
+                      <i class="fa fa-calendar"></i> Date:
+                      <strong>
+                        <span>January 2018</span>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-outline-dark btn-modal-close" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="portfolio-modal modal fade" id="portfolioModalSeismicShift" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -650,13 +916,13 @@
                   <hr class="divider-primary">
 
                     <!-- Carousel -->
-                    <div id="carousel5" class="carousel slide" data-ride="carousel">
+                    <div id="carouselSeismicShift" class="carousel slide" data-ride="carousel">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
-                        <li data-target="#carousel5" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel5" data-slide-to="1"></li>
-                        <li data-target="#carousel5" data-slide-to="2"></li>
-                        <li data-target="#carousel5" data-slide-to="3"></li>
+                        <li data-target="#carouselSeismicShift" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselSeismicShift" data-slide-to="1"></li>
+                        <li data-target="#carouselSeismicShift" data-slide-to="2"></li>
+                        <li data-target="#carouselSeismicShift" data-slide-to="3"></li>
                       </ol>
 
                       <!-- Wrapper for slides -->
@@ -679,11 +945,11 @@
                       </div>
 
                       <!-- Left and right controls -->
-                      <a class="carousel-control-prev" href="#carousel5" role="button" data-slide="prev">
+                      <a class="carousel-control-prev" href="#carouselSeismicShift" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carousel5" role="button" data-slide="next">
+                      <a class="carousel-control-next" href="#carouselSeismicShift" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
@@ -747,7 +1013,8 @@
         </div>
       </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <div class="portfolio-modal modal fade" id="portfolioModalFTL" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">

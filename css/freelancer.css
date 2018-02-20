@@ -464,7 +464,6 @@ footer {
     background-color: white; }
 
 .btn-success {
-  margin-top: 10px;
   font-weight: 700;
   color: white;
   border-color: #1798BC;
@@ -550,7 +549,7 @@ footer {
   font-size: 1.25rem;
 }
 
-.social-links {
+.content-centered {
     text-align: center;
 }
 
