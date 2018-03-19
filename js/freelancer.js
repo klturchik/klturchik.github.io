@@ -88,19 +88,19 @@
 
 
   $(function() {
-    $("#portfolioModal1").on('shown.bs.modal', function () {
+    $("#portfolioModalRedDwarf").on('shown.bs.modal', function () {
       $("#video1").get(0).play();
     })
-    $("#portfolioModal1").on('hidden.bs.modal', function () {
+    $("#portfolioModalRedDwarf").on('hidden.bs.modal', function () {
       $("#video1").get(0).pause();
     })
   });
 
   $(function() {
-    $("#portfolioModal3").on('shown.bs.modal', function () {
+    $("#portfolioModalElementalFury").on('shown.bs.modal', function () {
       $("#video2").get(0).play();
     })
-    $("#portfolioModal3").on('hidden.bs.modal', function () {
+    $("#portfolioModalElementalFury").on('hidden.bs.modal', function () {
       $("#video2").get(0).pause();
     })
   });    
