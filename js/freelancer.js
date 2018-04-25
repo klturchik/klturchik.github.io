@@ -86,22 +86,31 @@
     distance: '0px'
   }, 300);
 
-
+    
   $(function() {
-    $("#portfolioModalRedDwarf").on('shown.bs.modal', function () {
+    $("#portfolioModalCthulu").on('shown.bs.modal', function () {
       $("#video1").get(0).play();
     })
-    $("#portfolioModalRedDwarf").on('hidden.bs.modal', function () {
+    $("#portfolioModalCthulu").on('hidden.bs.modal', function () {
       $("#video1").get(0).pause();
     })
   });
 
   $(function() {
-    $("#portfolioModalElementalFury").on('shown.bs.modal', function () {
+    $("#portfolioModalRedDwarf").on('shown.bs.modal', function () {
       $("#video2").get(0).play();
     })
-    $("#portfolioModalElementalFury").on('hidden.bs.modal', function () {
+    $("#portfolioModalRedDwarf").on('hidden.bs.modal', function () {
       $("#video2").get(0).pause();
+    })
+  });
+
+  $(function() {
+    $("#portfolioModalElementalFury").on('shown.bs.modal', function () {
+      $("#video3").get(0).play();
+    })
+    $("#portfolioModalElementalFury").on('hidden.bs.modal', function () {
+      $("#video3").get(0).pause();
     })
   });    
     
