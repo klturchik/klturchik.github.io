@@ -566,7 +566,7 @@ footer {
 }
 
 .img-profile {
-    width: 50%;
+    width: 48%;
     float: left;
     margin-top: 6px;
     margin-right: 10px;
@@ -579,15 +579,15 @@ footer {
 @media (min-width: 576px) {
 .img-profile {
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }}
 @media (min-width: 768px) {
 .img-profile {
-    width: 37.5%;
+    width: 36.5%;
 }}
 @media (min-width: 992px) {
 .img-profile {
-    width: 35%;
+    width: 36.5%;
 }}
 
 
