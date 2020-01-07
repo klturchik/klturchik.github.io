@@ -89,13 +89,19 @@
                 <span class="btn btn-success filter-btn" data-filter="mobile"> Mobile
                 </span>
             </li>
-            <li class="list-inline-item sr-button mb-1">
-                <span class="btn btn-success filter-btn" data-filter="hackathon"> Hackathon
-                </span>
-            </li>
         </ul>
           
         <div class="row">
+          <div class="col-sm-4 portfolio-item sr-icon  filter">
+            <a class="portfolio-link" href="#portfolioModalBlizzard" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/Blizzard/Blizzard.jpg" class="img-fluid" alt="Blizzard">
+            </a>
+          </div>
           <div class="col-sm-4 portfolio-item sr-icon  filter ar mobile">
             <a class="portfolio-link" href="#portfolioModalCthulu" data-toggle="modal">
               <div class="caption">
@@ -136,7 +142,8 @@
               <img src="img/portfolio/InVRasion/InVRasion.jpg" class="img-fluid" alt="InVRasion">
             </a>
           </div>
-          <div class="col-sm-4 portfolio-item sr-icon  filter mobile hackathon">
+    <!--
+          <div class="col-sm-4 portfolio-item sr-icon  filter hackathon">
             <a class="portfolio-link" href="#portfolioModalBattleOfTheBards" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -146,6 +153,7 @@
               <img src="img/portfolio/BattleOfTheBards/BattleOfTheBards.jpg" class="img-fluid" alt="Battle Of The Bards">
             </a>
           </div>
+    -->
           <div class="col-sm-4 portfolio-item sr-icon  filter vr hackathon">
             <a class="portfolio-link" href="#portfolioModalElementalFury" data-toggle="modal">
               <div class="caption">
@@ -297,6 +305,124 @@
     </div>
 
     <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModalBlizzard" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 mx-auto">
+                <div class="modal-body">
+                  <h2>Blizzard Ops Center Visitor Experience</h2>
+                  <h4></h4>
+                  <hr class="divider-primary">
+                    
+                    <!-- Carousel -->
+                    <div id="carouselBlizzard" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselBlizzard" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselBlizzard" data-slide-to="1"></li>
+                        <li data-target="#carouselBlizzard" data-slide-to="2"></li>
+                        <li data-target="#carouselBlizzard" data-slide-to="3"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                           <video id="blizzardVideo1" class="embed-responsive" controls>
+                            <source src="img/portfolio/Blizzard/0.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                          </video>
+                        </div>
+
+                        <div class="carousel-item">
+                          <video id="blizzardVideo2" class="embed-responsive" controls>
+                            <source src="img/portfolio/Blizzard/1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                          </video>
+                        </div>
+
+                        <div class="carousel-item">
+                           <video id="blizzardVideo3" class="embed-responsive" controls>
+                            <source src="img/portfolio/Blizzard/2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                          </video>
+                        </div>
+
+                        <div class="carousel-item">
+                           <video id="blizzardVideo4" class="embed-responsive" controls>
+                            <source src="img/portfolio/Blizzard/3.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                          </video>
+                        </div>
+                      </div>
+
+                      <!-- Left and right controls -->
+                      <a class="carousel-control-prev" href="#carouselBlizzard" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselBlizzard" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                    <!-- /Carousel -->
+                    
+                  <h6>About the project</h6>
+                    <div class="tool-details"><i class="fa fa-wrench"></i> Tools: React, Javascript, WebGL</div>
+                    <p>The Ops Center is Blizzard's command center for live ops. I created this touchscreen web application for Blizzard events and tours to explain what happens in the Ops Center and how issues are found and addressed. The project's centerpiece is a 3D globe, an idea I cam up with and prototyped during a company hackathon. The glob displays live Ops Center telemetry stats, including the geographic locations of player's looging in to Blizzard games around the world.</p>
+                <!--
+                 <h6>Contributions</h6>
+                    I was one of 2 main programmers on the Reign of Cthulu team. <br>My contributions include:
+                    <ul class="center-list">
+                        <li>AR functionality and controls using Vuforia</li>
+                        <li>Card mechanics</li>
+                        <li>Integration and optimization of assets for mobile devices</li>
+                        <li>UI implementation</li>
+                    </ul>
+                 <h6>What I Learned</h6>
+                    <p>
+                    While working on Red Dwarf I learned more about worldspace UI and developing controls for multiple devices (keyboard &amp; Vive) simultaneously. The 3D nature of the game taught me a great deal about vector math as well. This was also a larger project with many components that required me to learn more about concise object-oriented architecture design.
+                    <br>
+                    One of our greatest challenges was making player controls feel intuitive and responsive while also alleviating motion sickness in VR. I designed and implemented the gyroscopic radar system and realistic controls with haptic feedback (using VRTK), which proved to significantly reduce motion sickness.
+                    <br>
+                    As this was my first indie game project I learned a great deal about game design and teamwork as well. My team followed Agile development practices using Trello and Github to coordinate tasks and we all participated in each stage of the game design process. 
+                    </p>-->
+
+                    <ul class="list-inline item-details">    
+                    <!--
+                    <li>                    
+                        <i class="fa fa-television"></i>
+                        Play in browser:
+                        <strong><a href="webplayer/BattleOfTheBards/BattleOfTheBards.html">Battle Of The Bards</a>
+                        </strong>
+                    </li>
+                    -->
+                    <li>
+                      <i class="fa fa-calendar"></i> Date:
+                      <strong>
+                        <span>June 2018 - September 2018</span>
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-outline-dark btn-modal-close" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    
     <div class="portfolio-modal modal fade" id="portfolioModalCthulu" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
