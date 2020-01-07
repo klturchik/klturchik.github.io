@@ -5102,6 +5102,7 @@ button.close {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
+  height: 80%;
   width: 15%;
   color: #fff;
   text-align: center;
