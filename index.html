@@ -102,16 +102,6 @@
               <img src="img/portfolio/Blizzard/Blizzard.jpg" class="img-fluid" alt="Blizzard">
             </a>
           </div>
-          <div class="col-sm-4 portfolio-item sr-icon  filter ar mobile">
-            <a class="portfolio-link" href="#portfolioModalCthulu" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="img/portfolio/Cthulu/Cthulu.jpg" class="img-fluid" alt="Reign of Cthulu">
-            </a>
-          </div>
           <div class="col-sm-4 portfolio-item sr-icon  filter vr">
             <a class="portfolio-link" href="#portfolioModalRedDwarf" data-toggle="modal">
               <div class="caption">
@@ -120,6 +110,16 @@
                 </div>
               </div>
               <img src="img/portfolio/RedDwarf/RedDwarf.jpg" class="img-fluid" alt="Red Dwarf">
+            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item sr-icon  filter ar mobile">
+            <a class="portfolio-link" href="#portfolioModalCthulu" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/Cthulu/Cthulu.jpg" class="img-fluid" alt="Reign of Cthulu">
             </a>
           </div>
           <div class="col-sm-4 portfolio-item sr-icon  filter ar mobile">
@@ -322,7 +322,7 @@
                   <hr class="divider-primary">
                     
                     <!-- Carousel -->
-                    <div id="carouselBlizzard" class="carousel slide" data-ride="carousel">
+                    <div id="carouselBlizzard" class="carousel slide" data-ride="carousel" data-interval="false">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
                         <li data-target="#carouselBlizzard" data-slide-to="0" class="active"></li>
@@ -363,11 +363,11 @@
                       </div>
 
                       <!-- Left and right controls -->
-                      <a class="carousel-control-prev" href="#carouselBlizzard" role="button" data-slide="prev">
+                      <a class="carousel-control-prev carousel-control-video" href="#carouselBlizzard" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carouselBlizzard" role="button" data-slide="next">
+                      <a class="carousel-control-next carousel-control-video" href="#carouselBlizzard" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
@@ -376,7 +376,7 @@
                     
                   <h6>About the project</h6>
                     <div class="tool-details"><i class="fa fa-wrench"></i> Tools: React, Javascript, WebGL</div>
-                    <p>The Ops Center is Blizzard's command center for live ops. I created this touchscreen web application for Blizzard events and tours to explain what happens in the Ops Center and how issues are found and addressed. The project's centerpiece is a 3D globe, an idea I cam up with and prototyped during a company hackathon. The glob displays live Ops Center telemetry stats, including the geographic locations of player's looging in to Blizzard games around the world.</p>
+                    <p>The Ops Center is Blizzard's command center for live ops. I created this touchscreen web application for Blizzard events and tours to explain how the Ops Center team works and how they find and address live issues. The project's centerpiece is a 3D globe, an idea I came up with and prototyped during a company hackathon. The globe displays live Ops Center telemetry stats, including the geographic locations of players logging in to Blizzard games around the world.</p>
                 <!--
                  <h6>Contributions</h6>
                     I was one of 2 main programmers on the Reign of Cthulu team. <br>My contributions include:
@@ -407,7 +407,7 @@
                     <li>
                       <i class="fa fa-calendar"></i> Date:
                       <strong>
-                        <span>June 2018 - September 2018</span>
+                        <span>June 2017 - September 2017</span>
                       </strong>
                     </li>
                   </ul>
@@ -451,7 +451,7 @@
                     <div class="tool-details"><i class="fa fa-wrench"></i> Tools: Unity, C#, GIT, Visual Studio, Vuforia</div>
                     <p>Reign of Cthulu is a native augmented reality multiplayer card game in development for mobile Android and iOS devices. It was designed by Diablo designer Paul Limon, one of the original 20 Blizzard employees. The game focuses heavily on story and immersing the player in the alternate reality world while providing a deep gameplay experience.</p>
                   <h6>Contributions</h6>
-                    I was one of 2 main programmers on the Reign of Cthulu team. <br>My contributions include:
+                    I was one of 2 main engineers on the Reign of Cthulu team. <br>My contributions include:
                     <ul class="center-list">
                         <li>AR functionality and controls using Vuforia</li>
                         <li>Card mechanics</li>
@@ -527,7 +527,7 @@
                     <div class="tool-details"><i class="fa fa-wrench"></i> Tools: Unity, C#, SteamVR, VRTK, HTC Vive</div>
                     <p>Red Dwarf is a Virtual Reality space shooter game developed for the HTC Vive. The player controls their spaceship from inside the cockpit, with immersive VR-emulated flightstick controls. The game  plays in an arcade-style, with the objective being to reach the highest score possible before dying. Inspirations for the game include old school space-sims such as Freelancer and Elite Dangerous as well as roguelikes such as FTL.</p>
                   <h6>Contributions</h6>
-                    I worked with a team of 3 other engineers and 2 3D artists to create Red Dwarf. <br>My contributions include:
+                    I worked with a team of 2 other engineers and 2 3D artists to create Red Dwarf. <br>My contributions include:
                     <ul class="center-list">
                         <li>Semi-newtonian physics based controls (Keyboard &amp; Vive)</li>
                         <li>360 degree gyroscopic radar system</li>
@@ -968,7 +968,7 @@
                     </p>
                     <h6>About the project</h6>
                     <div class="tool-details"><i class="fa fa-wrench"></i> Tools: Unity, C#, Photon, Vuforia</div>
-                    <p>Augmented Realms is an augmented reality application for Android and iOS mobile devices designed specifically to enhance tabletop roleplaying games. The goal of Augmented Realms is to provide gamers with a streamlined set of tools to allow easier world building for DMs and character management for players, all the while immersing the player by breathing life into their game with a shared augmented reality world.
+                    <p>Augmented Realms is an augmented reality application that allows multiple players to create, share, and interact with a game world over a live network. The app was designed specifically to enhance tabletop roleplaying games by providing players with a streamlined set of tools that allow for easier world building and character management, all the while immersing the player by breathing life into their game with a shared augmented reality experience.
                     </p>
                     <h6>Contributions</h6>
                     I am working with a team of engineers, artists, musicians, and dungeon masters to create Augmented Realms. <br>My contributions so far include:

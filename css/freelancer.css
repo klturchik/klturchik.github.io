@@ -619,6 +619,9 @@ footer {
 .carousel-indicators {
   bottom: 0px;
 }
+.carousel-control-video {
+  height: 85%;
+}
 
 .modal-intro{
   margin-bottom: 1.75rem

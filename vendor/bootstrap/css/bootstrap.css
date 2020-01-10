@@ -5102,7 +5102,6 @@ button.close {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
-  height: 80%;
   width: 15%;
   color: #fff;
   text-align: center;
@@ -5129,8 +5128,8 @@ button.close {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   background: transparent no-repeat center center;
   background-size: 100% 100%;
 }
